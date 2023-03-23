@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 const Navbar = () => {
+  
   return (
     <div>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
