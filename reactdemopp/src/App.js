@@ -6,8 +6,12 @@ import About from './Pages/About';
 import Signup from './Pages/Signup';
 import Login from './Pages/Login';
 import Contact from './Pages/Contact';
+import Products from './Pages/Products';
+
 
 function App() {
+  
+  
   return (
     <BrowserRouter>    
            <Navbar/>
@@ -17,7 +21,12 @@ function App() {
                 <Route path="/Contact" element={<Contact />} />
                 <Route path="/Login" element={<Login />} />
                 <Route path="/Signup" element={<Signup />} />
+                <Route path="/Products" element={<Products />} />
             </Routes>
+            
+            
+            
+
     </BrowserRouter>
   );
 }

@@ -4,10 +4,10 @@ const Navbar = () => {
   
   return (
     <div>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+        <div className="container-fluid">
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -15,33 +15,33 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <Link to="/" class="nav-link active">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <Link to="/" className="nav-link active">
                   Home
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link to="/About" class="nav-link">
+              <li className="nav-item">
+                <Link to="/About" className="nav-link">
                   About Us
                 </Link>
               </li>
 
-              <li class="nav-item">
-                <Link to="/Contact" class="nav-link">
+              <li className="nav-item">
+                <Link to="/Contact" className="nav-link">
                   Contact
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link to="/Login" class="nav-link">
+              <li className="nav-item">
+                <Link to="/Login" className="nav-link">
                   Log In
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link to="/Signup" class="nav-link">
+              <li className="nav-item">
+                <Link to="/Signup" className="nav-link">
                   Sign Up
                 </Link>
               </li>
