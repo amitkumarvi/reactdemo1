@@ -7,6 +7,8 @@ import Signup from './Pages/Signup';
 import Login from './Pages/Login';
 import Contact from './Pages/Contact';
 import Products from './Pages/Products';
+import SearchBarDemo from './Pages/SearchBarDemo';
+import TicTacToe from './Pages/TicTacToe';
 
 
 function App() {
@@ -22,6 +24,9 @@ function App() {
                 <Route path="/Login" element={<Login />} />
                 <Route path="/Signup" element={<Signup />} />
                 <Route path="/Products" element={<Products />} />
+                <Route path="/SearchBarDemo" element={<SearchBarDemo />} />
+                <Route path="/TicTacToe" element={<TicTacToe />} />
+
             </Routes>
             
             
